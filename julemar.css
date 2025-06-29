@@ -1,0 +1,39 @@
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    :root {
+      --julemar-pink: #e10098;
+    }
+
+    .text-julemar {
+      color: var(--julemar-pink);
+    }
+    .bg-julemar {
+      background-color: var(--julemar-pink);
+    }
+    .hover\:text-julemar:hover {
+      color: var(--julemar-pink);
+    }
+
+    .h-12 {
+      width: 50px;
+      height: 50px;
+    }
+    .MAPA {
+      max-width: 300px;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .MAPA iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      border-radius: 10px;
+    }
